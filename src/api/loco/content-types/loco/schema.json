@@ -1,0 +1,32 @@
+{
+  "kind": "collectionType",
+  "collectionName": "locos",
+  "info": {
+    "singularName": "loco",
+    "pluralName": "locos",
+    "displayName": "loco"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "album": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": true
+    },
+    "title": {
+      "type": "string"
+    }
+  }
+}

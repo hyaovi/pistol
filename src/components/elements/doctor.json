@@ -1,0 +1,36 @@
+{
+  "collectionName": "components_meta_doctors",
+  "info": {
+    "displayName": "doctor",
+    "icon": "user-md",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "avatar": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "mail": {
+      "type": "email"
+    },
+    "position": {
+      "type": "string"
+    },
+    "departements": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::departement.departement"
+    }
+  }
+}

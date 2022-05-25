@@ -1,0 +1,20 @@
+{
+  "kind": "collectionType",
+  "collectionName": "departements",
+  "info": {
+    "singularName": "departement",
+    "pluralName": "departements",
+    "displayName": "departement"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "departement": {
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.department"
+    }
+  }
+}
